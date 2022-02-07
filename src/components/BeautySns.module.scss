@@ -1,0 +1,23 @@
+.beauty-plus-sns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.beauty-plus-sns img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.beauty-plus-sns ul {
+  display: flex;
+}
+.beauty-plus-sns li {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0vh;
+  }
+}

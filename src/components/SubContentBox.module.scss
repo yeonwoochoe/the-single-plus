@@ -1,0 +1,173 @@
+#subContentBox {
+  width: 100%;
+  height: auto;
+  background-color: #d0d0d0;
+  padding-top: 100px;
+}
+
+.slide_wrapper {
+  position: relative;
+  width: 60%;
+  max-width: 1000px;
+  margin: auto;
+  height: 400px;
+  padding-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+.indi_container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  transform: translateX(-50%);
+}
+.indi_container ul {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.indi_container li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  &:first-child {
+    width: 40px;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  & > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+    border-radius: 3.125rem;
+  }
+}
+
+.btn {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  height: 0;
+}
+.btn button {
+  justify-content: space-between;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  &:nth-child(1) {
+    float: right;
+    display: block;
+    background-color: #dfd;
+  }
+  &:nth-child(2) {
+    display: block;
+    background-color: #dfd;
+  }
+}
+
+.content-area {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-con-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #999;
+}
+
+.slide-con-wrap div {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+div .action {
+  display: block;
+  z-index: 5;
+}
+.slide_01 {
+  background-color: #054;
+}
+.slide_02 {
+  background-color: #73f7;
+}
+.slide_03 {
+  background-color: #6637;
+}
+.slide_04 {
+  background-color: #5af7;
+}
+
+//--------------------------------------
+
+.main-title {
+  width: 60%;
+  max-width: 1280px;
+  margin: auto;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.main-title h3 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 340px 280px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  width: 60%;
+  max-width: 1280px;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.item:nth-child(1) {
+  display: flex;
+  grid-column: 1 / 4;
+  background-color: #f00;
+  & > div {
+    width: 100%;
+    background-color: #dff;
+    &:last-child {
+      width: 60%;
+      background-color: #505;
+    }
+  }
+}
+
+.item dt {
+  width: 100%;
+  height: 240px;
+  background-color: #fff;
+}
+
+.item:nth-child(2) {
+  background-color: rgb(99, 54, 54);
+}
+
+.item:nth-child(3) {
+  background-color: rgb(246, 221, 160);
+}
+
+.item:nth-child(4) {
+  background-color: rgb(122, 200, 112);
+}
